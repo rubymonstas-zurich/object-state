@@ -16,16 +16,16 @@ require "minitest/autorun"
 #
 # in your terminal.
 #
+# Without giving you the solution, the test below should tell you what code we
+# expect. You should create a Character class. What's the least amount of code
+# you have to write to make this code pass?
+#
 # After you're done, check solutions/solution_01.rb
 # to compare your results.
 #
 ################################################################################
 
 class ObjectStateTest < Minitest::Test
-  def self.test_order
-    :sorted
-  end
-
   def test_01
     character = Character.new
   end

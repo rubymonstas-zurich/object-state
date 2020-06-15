@@ -16,10 +16,6 @@ end
 ################################################################################
 
 class ObjectStateTest < Minitest::Test
-  def self.test_order
-    :sorted
-  end
-
   def test_02
     character = Character.new
 

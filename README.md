@@ -30,5 +30,18 @@ NameError: uninitialized constant ObjectStateTest::Character
 So now make this test pass by implementing a `Character` class above the test.
 Only write the code that is **necessary to make the test pass**, nothing more!
 
-After that, continue with number `02`, `03` and so on. After each exercise, you
-may check the solutions (in the `solutions` folder) and compare. Ask the coaches if you have any questions.
+After that, continue with number `02`, `03` and so on.
+
+```bash
+$ ruby object_state02.rb
+$ ruby object_state03.rb
+$ ruby object_state04.rb
+$ ruby object_state05.rb
+```
+
+After each exercise, you
+may check the solutions (in the `solutions` folder) and compare.
+
+**Try not to just jump into the solutions, really think about the solutions and also ask your coaches questions.**
+
+Ask the coaches if you have any questions.

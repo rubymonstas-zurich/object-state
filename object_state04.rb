@@ -7,9 +7,6 @@ require "minitest/autorun"
 ################################################################################
 
 class Character
-  def name=(new_name)
-    @name = new_name
-  end
 end
 
 ################################################################################
@@ -19,10 +16,6 @@ end
 ################################################################################
 
 class ObjectStateTest < Minitest::Test
-  def self.test_order
-    :sorted
-  end
-
   def test_04
     character = Character.new
 
